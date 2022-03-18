@@ -1,0 +1,752 @@
+@font-face {
+	font-family: 'digi';
+	src: url('../fonts/digi.ttf') format('truetype'),
+	url('../fonts/digi.woff') format('woff');
+}
+* {
+	margin: 0;
+}
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+	width: 100%;
+
+}
+
+body {
+	font-family: Source Sans Pro, Arial ;
+	
+
+}
+h1{
+	text-align: center;
+	padding: 50px 50px 0 50px;
+	font-family: Source Sans Pro, Arial ;
+}
+h2, h3{
+	margin: 15px 0;
+	text-align: center;
+}
+.nightColor{
+	color: rgb(170, 170, 170)!important;
+}
+#daywrapper{
+	background-color: #e3c663;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment:fixed;
+	position: fixed;
+	top: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -9; 
+	overflow: hidden;
+
+}
+#nightwrapper{
+	background-color: #111;
+	background-image: url(../images/bgnight.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment:fixed;
+	position: fixed;
+	top: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -9; 
+	overflow: hidden;
+	opacity: 0;
+}
+
+.cf:before,
+.cf:after {
+	content: " "; 
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+
+}
+span.general{
+	display: block;
+	text-align: center;
+	padding-bottom: 25px;
+}
+.total{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+/*ul {
+	padding: 0;
+	margin: 0;
+	}*/
+
+/*the following 2 classes are for the "sticky footer" 
+footer must be same height as the wrapper negative margin and the positive in :after 
+
+#wrapper{
+	min-height: 100%;
+	margin-bottom: -90px;
+}
+#wrapper:after {
+  content: "";
+  display: block;
+  height:90px;
+}
+*/
+
+header{
+	position:relative;
+}
+#swissmade{
+	height:180px;
+	width:180px;
+	background-image: url("../images/swissmade.png");
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#logo {
+	position: relative;
+	width: 500px;
+	height: 160px;
+	margin: 0px auto;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:#434343;
+}
+
+#title {
+	position: absolute;
+	left: 184px;
+	top: 92px;
+	font-size: 15px;
+}
+#main{
+
+}
+.firstAd{
+	text-align: center;
+}
+#application {
+	max-width:1020px;
+	margin:0 auto;
+
+}
+
+.clock_text {
+	font-size: 30px;
+	font-weight: 600;
+	color:#333;
+}
+
+#wake_me_up_text{
+	width: 205px;
+	display: inline-block;
+	text-align:left;
+	position:relative;
+	vertical-align:top;
+	margin-top:60px;
+	cursor: default;
+	
+}
+#with_sound_text{
+	width:255px;
+	display: inline-block;
+	text-align:center;
+	position:relative;
+	vertical-align:top;
+	margin-top:60px;
+	cursor: default;
+	
+}
+#select_time{
+	width:287px;
+	height:184px;
+	display: inline-block;
+	vertical-align:top;
+	background: url(../images/select_time.png) no-repeat;
+	position:relative;
+}
+#select_time_overlay{
+	position:absolute;
+	width:287px;
+	height:184px;
+	background-color:#000;
+	opacity:0;
+	top:0px;
+	display:none;	
+}
+#select_sound{
+	width:237px;
+	height:184px;
+	display: inline-block;
+	background: url(../images/select_sound.png) no-repeat;
+	position:relative;
+	vertical-align:top;
+}
+#select_sound_overlay{
+	position:absolute;
+	width:237px;
+	height:184px;
+	background-color:#000;
+	opacity:0;
+	top:0px;
+	display:none;
+}
+
+
+#alarm_time{
+	position:absolute;
+	top:40px;
+	left:44px;
+	width:230px;
+	height:90px;
+}
+.digit{
+	font-size:90px;
+	font-family: digi;
+	color:#e73a52;
+	width:40px;
+	height:65px;
+	display:inline-block;
+	text-align:right;
+	text-shadow: 0 0 20px rgba(230, 58, 82, 0.8);
+	cursor: default;
+}
+#hours_one{
+	position:absolute;
+	top:40px;
+	left:42px;
+}
+#hours_two{
+	position:absolute;
+	top:40px;
+	left:86px;
+	
+}
+#minutes_one{
+	position:absolute;
+	top:40px;
+	left:150px;
+	
+}
+#minutes_two{
+	position:absolute;
+	top:40px;
+	left:196px;
+	
+}
+
+#divider{
+	font-size:90px;
+	font-family: digi;
+	color:#e73a52;
+	width:18px;
+	margin-left:0px;
+	height:130px;
+	display:inline-block;
+	position:absolute;
+	top:40px;
+	left:130px;
+}
+#current_time {
+	position:absolute;
+	text-align: right;
+	font-size: 13px;
+	font-weight:500;
+	top: 12px;
+	right: 24px;
+	color: #999999;
+	cursor: default;
+}
+.theme_button{
+	font-size: 10px;
+	font-weight: 500;
+	color:#bbb;
+	text-transform: uppercase;
+	text-align:center;
+	background-image:url(../images/button_theme.png);
+	position:absolute;
+	width:78px;
+	height:15px;
+	top:14px;
+	left:23px;
+	cursor: pointer;
+}
+
+.clock_button{
+	width:22px;
+	height:22px;
+}
+#button_plus_hour{
+	background-image:url(../images/button_plus.png);
+	position:absolute;
+	top:146px;
+	left:59px;
+	cursor: pointer;
+}
+#button_minus_hour{
+	background-image:url(../images/button_minus.png);
+	position:absolute;
+	top:146px;
+	left:95px;
+	cursor: pointer;
+}
+#button_plus_min{
+	background-image:url(../images/button_plus.png);
+	position:absolute;
+	top:146px;
+	left:170px;
+	cursor: pointer;
+}
+#button_minus_min{
+	background-image:url(../images/button_minus.png);
+	position:absolute;
+	top:146px;
+	left:206px;
+	cursor: pointer;
+}
+#choose_sound_left{
+	background-image:url(../images/button_left.png);
+	position:absolute;
+	top:70px;
+	left:10px;
+	cursor: pointer;	
+}
+#choose_sound_right{
+	background-image:url(../images/button_right.png);
+	position:absolute;
+	top:70px;
+	left:202px;
+	cursor: pointer;	
+}
+#preview_sound{
+	position:absolute;
+	left:58px;
+	top:150px;
+	width:125px;
+	height:22px;
+}
+#preview_stop{
+	position:absolute;
+	left:58px;
+	top:150px;
+	width:125px;
+	height:22px;
+}
+.text_preview_sound{
+	font-size:13px;
+	color:#ffffff;
+	font-weight:400;
+	display:inline-block;
+	vertical-align:top;
+	margin:2px 0 0 8px;
+	cursor: default;
+}
+#button_preview_sound{
+	background-image:url(../images/button_play.png);
+	display:inline-block;
+	cursor: pointer;
+}
+#button_preview_stop{
+	background-image:url(../images/button_stop.png);
+	display:inline-block;
+	cursor: pointer;
+}
+#sound_cock .sound_image{
+	background: url(../images/sound_cock.png);
+}
+#sound_clock .sound_image{
+	background: url(../images/sound_classic.png);
+}
+#sound_electronic .sound_image{
+	background: url(../images/sound_electronic.png);
+}
+#sound_guitar .sound_image{
+	background: url(../images/sound_guitar.png);
+}
+#sound_military .sound_image{
+	background: url(../images/sound_military.png);
+}
+#sound_alien .sound_image{
+	background: url(../images/sound_alien.png);
+}
+.sound_container{
+	height:140px;
+}
+.sound_name{
+	text-align:center;
+	height: 30px;
+	text-transform:uppercase;
+	font-size:18px;
+	color:#ffffff;
+	padding-top:8px;
+	cursor: default;
+}
+.sound_image{
+	background-repeat:no-repeat;
+	width: 149px;
+	height: 103px;
+	margin:0 auto;
+}
+
+.button{
+	text-transform:uppercase;
+	background-color: #b71818;
+	color:#ffffff;
+	border-radius: 5px;
+	display: block;
+	text-align: center;	
+}
+
+#set_alarm_button{
+	font-size: 30px;
+	width:240px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	margin-top:26px;
+	margin-left:230px;
+	cursor: pointer;
+}
+#alarm_set{
+	width:260px;
+	height:100px;
+	margin-top:26px;
+	margin-left:220px;
+	margin-bottom: 65px;
+	
+}
+#alarm_set_text{
+	font-size: 30px;
+	font-weight: 600;
+	color:#333;
+	text-align:center;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#cancel_button{
+	font-size:20px;
+	width:160px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin:0 auto;
+	cursor: pointer;
+}
+#alarm_start{
+	margin-top:6px;
+	margin-left:240px;
+	width:450px;
+}
+#wakeup{
+	font-size:60px;
+	color:#333;
+	width:250px;
+	margin-bottom:5px;
+	cursor: default;
+	animation: pulse 0.7s infinite;
+	
+}
+#stopor{
+	display:inline-block;
+	width:165px;
+}
+#stop_alarm_button{
+	width:100px;
+	font-size:20px;
+	padding:10px 0;
+	display:inline-block;
+	cursor: pointer;
+}
+
+#or{
+	font-size:26px;
+	display:inline-block;
+	margin:0 10px 0 10px;
+	cursor: default;
+	color:#333;
+	
+}
+#snooze_button{
+	font-size:20px;
+	padding:10px 0;
+	display:inline-block;
+	width:270px;
+	cursor: pointer;
+}
+@-webkit-keyframes pulse {  
+	0%{ opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+blink {
+	-webkit-animation-name: pulse;  
+	-webkit-animation-timing-function: ease;
+}
+
+#iosdisclaimer{
+	padding:20px;
+	font-size:18px;
+	color:#333;
+	display: none;
+}
+
+#ads{
+	width:800px;
+	margin:120px auto 80px;
+}
+#facebookwide{
+	width:435px;
+	margin:0 auto 80px;
+}
+#facebooknarrow{
+	width:250px;
+	margin:0 auto 80px;
+	display:none;
+}
+.fbheadline{
+	font-size:20px;
+	color:#333;
+	margin-bottom: 10px
+}
+
+.content{
+	margin-top: 15px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #eee;
+	width: 100%;
+}
+.content p{
+	margin: 15px 10px;
+	padding: 10px;
+}
+.content ul{
+	margin-left: 15px;
+
+}		
+
+#first_add{
+	text-align: center;
+}
+
+p.important{
+	background-color: #e5ab3f;
+	text-align: center;
+	margin: 10px auto;
+}
+
+footer {
+	height:90px;
+}	
+
+.footer_text {
+	text-align: center;
+	font-size: 13px;
+	color: #BA8639;
+}
+
+.none {
+	display: none;
+}
+.line_ad{
+	/*background-color: red;*/
+	text-align: center;
+	margin-top: 20px;
+}
+
+#change-language {
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.scrollable-menu {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0;
+    border: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #212121;
+    border-color: #212121;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1020px) {
+	h1{
+		font-size: 1.3em;
+		padding-bottom: 20px;
+		/*background-color: blue;*/
+	}
+	span.general{
+		display: block;
+		text-align: center;
+		padding-bottom: 25px;
+		border-bottom: 1px solid black;
+	}
+	#wake_me_up_text{
+		display: block;
+		text-align:center;
+		margin: 0px auto 5px;
+		cursor: default;		
+	}
+	#with_sound_text{
+		display: block;
+		text-align:center;
+		margin:30px auto 5px;
+		cursor: default;
+		
+	}
+	#select_time{
+		display: block;
+		margin:0 auto;
+	}
+	#select_sound{
+		display: block;
+		margin:0 auto;
+	}
+	#logo {
+		width: 280px;
+		height: 100px;
+		background-size: 70%;
+		font-size: 15px;
+		margin-top:10px;
+	}
+
+	#title {
+		position: absolute;
+		left: 103px;
+		top: 52px;
+		font-size: 9px;
+	}
+	footer {
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom: 40px;
+	}
+	.footer_text {
+		text-align: left;
+	}
+	.footer_text p{
+		display:inline;
+	}
+
+
+	#set_alarm_button{
+		margin:40px auto 20px;
+	}
+	#alarm_set{
+		margin:40px auto 65px;
+	}
+	#alarm_start{
+		margin:40px auto 20px;
+		width:300px;
+	}
+	#wakeup{
+		margin:0 auto 5px;
+	}
+	#snooze_button{
+		display:block;
+		margin:10px auto 0;
+	}
+	#stopor{
+		margin:0 auto;
+		display:block;
+	}
+	#facebookwide{
+		display:none;
+	}
+	#facebooknarrow{
+		display:block;
+	}
+	#ads{
+		width:100%;
+	}
+	body{
+		background-size: cover;
+	}
+	#swissmade{
+		display:none;
+	}
+}

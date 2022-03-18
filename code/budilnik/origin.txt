@@ -1,0 +1,316 @@
+Uri: https://budilnik.online/
+File Name: c:\Downloaded Web Sites\budilnik.online\index.htm
+Content Type: text/html
+
+Uri: https://budilnik.online/images/favicon.ico
+File Name: c:\Downloaded Web Sites\budilnik.online\images\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://budilnik.online/css/style.css?v=11
+File Name: c:\Downloaded Web Sites\budilnik.online\css\style.css
+Content Type: text/css
+
+Uri: https://budilnik.online/css/bootstrap.css?v=11
+File Name: c:\Downloaded Web Sites\budilnik.online\css\bootstrap.css
+Content Type: text/css
+
+Uri: https://budilnik.online/id
+File Name: c:\Downloaded Web Sites\budilnik.online\id.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ms
+File Name: c:\Downloaded Web Sites\budilnik.online\ms.html
+Content Type: text/html
+
+Uri: https://budilnik.online/cs
+File Name: c:\Downloaded Web Sites\budilnik.online\cs.html
+Content Type: text/html
+
+Uri: https://budilnik.online/da
+File Name: c:\Downloaded Web Sites\budilnik.online\da.html
+Content Type: text/html
+
+Uri: https://budilnik.online/de
+File Name: c:\Downloaded Web Sites\budilnik.online\de.html
+Content Type: text/html
+
+Uri: https://budilnik.online/et
+File Name: c:\Downloaded Web Sites\budilnik.online\et.html
+Content Type: text/html
+
+Uri: https://budilnik.online/en
+File Name: c:\Downloaded Web Sites\budilnik.online\en.html
+Content Type: text/html
+
+Uri: https://budilnik.online/es
+File Name: c:\Downloaded Web Sites\budilnik.online\es.html
+Content Type: text/html
+
+Uri: https://budilnik.online/tl
+File Name: c:\Downloaded Web Sites\budilnik.online\tl.html
+Content Type: text/html
+
+Uri: https://budilnik.online/fr
+File Name: c:\Downloaded Web Sites\budilnik.online\fr.html
+Content Type: text/html
+
+Uri: https://budilnik.online/hr
+File Name: c:\Downloaded Web Sites\budilnik.online\hr.html
+Content Type: text/html
+
+Uri: https://budilnik.online/lv
+File Name: c:\Downloaded Web Sites\budilnik.online\lv.html
+Content Type: text/html
+
+Uri: https://budilnik.online/lt
+File Name: c:\Downloaded Web Sites\budilnik.online\lt.html
+Content Type: text/html
+
+Uri: https://budilnik.online/hu
+File Name: c:\Downloaded Web Sites\budilnik.online\hu.html
+Content Type: text/html
+
+Uri: https://budilnik.online/nb
+File Name: c:\Downloaded Web Sites\budilnik.online\nb.html
+Content Type: text/html
+
+Uri: https://budilnik.online/is
+File Name: c:\Downloaded Web Sites\budilnik.online\is.html
+Content Type: text/html
+
+Uri: https://budilnik.online/it
+File Name: c:\Downloaded Web Sites\budilnik.online\it.html
+Content Type: text/html
+
+Uri: https://budilnik.online/nl
+File Name: c:\Downloaded Web Sites\budilnik.online\nl.html
+Content Type: text/html
+
+Uri: https://budilnik.online/pl
+File Name: c:\Downloaded Web Sites\budilnik.online\pl.html
+Content Type: text/html
+
+Uri: https://budilnik.online/pt
+File Name: c:\Downloaded Web Sites\budilnik.online\pt.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ro
+File Name: c:\Downloaded Web Sites\budilnik.online\ro.html
+Content Type: text/html
+
+Uri: https://budilnik.online/sq
+File Name: c:\Downloaded Web Sites\budilnik.online\sq.html
+Content Type: text/html
+
+Uri: https://budilnik.online/sk
+File Name: c:\Downloaded Web Sites\budilnik.online\sk.html
+Content Type: text/html
+
+Uri: https://budilnik.online/sl
+File Name: c:\Downloaded Web Sites\budilnik.online\sl.html
+Content Type: text/html
+
+Uri: https://budilnik.online/sr
+File Name: c:\Downloaded Web Sites\budilnik.online\sr.html
+Content Type: text/html
+
+Uri: https://budilnik.online/fi
+File Name: c:\Downloaded Web Sites\budilnik.online\fi.html
+Content Type: text/html
+
+Uri: https://budilnik.online/sv
+File Name: c:\Downloaded Web Sites\budilnik.online\sv.html
+Content Type: text/html
+
+Uri: https://budilnik.online/vi
+File Name: c:\Downloaded Web Sites\budilnik.online\vi.html
+Content Type: text/html
+
+Uri: https://budilnik.online/tu
+File Name: c:\Downloaded Web Sites\budilnik.online\tu.html
+Content Type: text/html
+
+Uri: https://budilnik.online/el
+File Name: c:\Downloaded Web Sites\budilnik.online\el.html
+Content Type: text/html
+
+Uri: https://budilnik.online/bg
+File Name: c:\Downloaded Web Sites\budilnik.online\bg.html
+Content Type: text/html
+
+Uri: https://budilnik.online/uk
+File Name: c:\Downloaded Web Sites\budilnik.online\uk.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ka
+File Name: c:\Downloaded Web Sites\budilnik.online\ka.html
+Content Type: text/html
+
+Uri: https://budilnik.online/he
+File Name: c:\Downloaded Web Sites\budilnik.online\he.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ur
+File Name: c:\Downloaded Web Sites\budilnik.online\ur.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ar
+File Name: c:\Downloaded Web Sites\budilnik.online\ar.html
+Content Type: text/html
+
+Uri: https://budilnik.online/fa
+File Name: c:\Downloaded Web Sites\budilnik.online\fa.html
+Content Type: text/html
+
+Uri: https://budilnik.online/hi
+File Name: c:\Downloaded Web Sites\budilnik.online\hi.html
+Content Type: text/html
+
+Uri: https://budilnik.online/bn
+File Name: c:\Downloaded Web Sites\budilnik.online\bn.html
+Content Type: text/html
+
+Uri: https://budilnik.online/th
+File Name: c:\Downloaded Web Sites\budilnik.online\th.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ko
+File Name: c:\Downloaded Web Sites\budilnik.online\ko.html
+Content Type: text/html
+
+Uri: https://budilnik.online/zh-tw
+File Name: c:\Downloaded Web Sites\budilnik.online\zh-tw.html
+Content Type: text/html
+
+Uri: https://budilnik.online/zh-cn
+File Name: c:\Downloaded Web Sites\budilnik.online\zh-cn.html
+Content Type: text/html
+
+Uri: https://budilnik.online/ja
+File Name: c:\Downloaded Web Sites\budilnik.online\ja.html
+Content Type: text/html
+
+Uri: https://budilnik.online/audio/cock.mp3
+File Name: c:\Downloaded Web Sites\budilnik.online\audio\cock.mp3
+Content Type: audio/mpeg
+
+Uri: https://budilnik.online/audio/clock.mp3
+File Name: c:\Downloaded Web Sites\budilnik.online\audio\clock.mp3
+Content Type: audio/mpeg
+
+Uri: https://budilnik.online/audio/electronic.mp3
+File Name: c:\Downloaded Web Sites\budilnik.online\audio\electronic.mp3
+Content Type: audio/mpeg
+
+Uri: https://budilnik.online/audio/guitar.mp3
+File Name: c:\Downloaded Web Sites\budilnik.online\audio\guitar.mp3
+Content Type: audio/mpeg
+
+Uri: https://budilnik.online/audio/military.mp3
+File Name: c:\Downloaded Web Sites\budilnik.online\audio\military.mp3
+Content Type: audio/mpeg
+
+Uri: https://budilnik.online/audio/alien.mp3
+File Name: c:\Downloaded Web Sites\budilnik.online\audio\alien.mp3
+Content Type: audio/mpeg
+
+Uri: https://budilnik.online/js/jquery.min.js
+File Name: c:\Downloaded Web Sites\budilnik.online\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://budilnik.online/js/jquery.animate-colors-min.js
+File Name: c:\Downloaded Web Sites\budilnik.online\js\jquery.animate-colors-min.js
+Content Type: application/javascript
+
+Uri: https://budilnik.online/js/custom.js?v=11
+File Name: c:\Downloaded Web Sites\budilnik.online\js\custom.js
+Content Type: application/javascript
+
+Uri: https://budilnik.online/js/bootstrap.js?v=11
+File Name: c:\Downloaded Web Sites\budilnik.online\js\bootstrap.js
+Content Type: application/javascript
+
+Uri: https://budilnik.online/fonts/digi.ttf
+File Name: c:\Downloaded Web Sites\budilnik.online\fonts\digi.ttf
+Content Type: application/font-sfnt
+
+Uri: https://budilnik.online/fonts/digi.woff
+File Name: c:\Downloaded Web Sites\budilnik.online\fonts\digi.woff
+Content Type: application/font-woff
+
+Uri: https://budilnik.online/images/bg.jpg
+File Name: c:\Downloaded Web Sites\budilnik.online\images\bg.jpg
+Content Type: image/jpeg
+
+Uri: https://budilnik.online/images/bgnight.jpg
+File Name: c:\Downloaded Web Sites\budilnik.online\images\bgnight.jpg
+Content Type: image/jpeg
+
+Uri: https://budilnik.online/images/swissmade.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\swissmade.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/logo.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\logo.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/select_time.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\select_time.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/select_sound.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\select_sound.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_theme.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_theme.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_plus.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_plus.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_minus.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_minus.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_left.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_left.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_right.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_right.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_play.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_play.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/button_stop.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\button_stop.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/sound_cock.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\sound_cock.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/sound_classic.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\sound_classic.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/sound_electronic.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\sound_electronic.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/sound_guitar.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\sound_guitar.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/sound_military.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\sound_military.png
+Content Type: image/png
+
+Uri: https://budilnik.online/images/sound_alien.png
+File Name: c:\Downloaded Web Sites\budilnik.online\images\sound_alien.png
+Content Type: image/png
+

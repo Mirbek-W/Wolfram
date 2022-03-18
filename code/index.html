@@ -1,0 +1,759 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- это иконка сайта который ниже меня LOG.ICO-->
+<link rel="shortcut icon" href="images/log.ico" type="image/x-icon">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+<link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+
+<title>Wolfram</title>
+
+<link href="styles/style.css"     		 rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/menu.css" 		 	 rel="stylesheet" type="text/css">
+<link href="styles/owl.theme.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"	 rel="stylesheet" type="text/css">
+<link href="styles/animate.css"			 rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework.plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+<body>
+<style>
+  html { overflow-y: hidden; } 
+</style>
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+<div class="all-elements">
+<div id="perspective" class="perspective effect-airbnb"><!--this houses the entire page, and creates the effect-->
+    <div class="header">
+        <a href="#" id="showMenu"><i class="fa fa-navicon"></i></a>
+        <a href="#" id="pageLogo"><img src="images/logo.png" alt="img"></a>
+        <a href="#" id="openMail"><i class="fa fa-envelope-o"></i></a>
+    </div> 	
+
+    <div class="outer-nav">
+        <div class="inner-nav">
+            <div class="nav-item">
+                <a href="index.html" class="active-item">
+                    <i class="nav-icon fa fa-home"></i>
+                    Домой
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="deploy-nav-sub-item">
+                    <i class="far fa-address-book"></i>
+                    💿 Музыка Радио
+                </a>
+                <div class="nav-sub-item">
+                    <a href="musik.html">🎵 Музыка</a>
+                    <a href="mir_radio.html">📻 Радио</a>
+                    <a href="page-error.html">📻 Wolfram Radio</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="deploy-nav-sub-item">
+                    <i class="nav-icon fa fa-cog"></i>
+                    Органайзер
+                </a>
+                <div class="nav-sub-item">
+                    <a href="gallery-wide.html">⏱ Часы</a>
+                    <a href="insturment.html">⚒ Инстурменты</a>
+                    <a href="online_apk.html">📱 Онлайн Программы</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="deploy-nav-sub-item">
+                    <i class="nav-icon fa fa-picture-o"></i>
+                   <a href="new_chinema.html"> Фильмы</a>
+                </a>
+                <div class="nav-sub-item">
+                   
+                   
+
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="deploy-nav-sub-item">
+                    <i class="nav-icon fa fa-files-o"></i>
+                    Игры
+                </a>
+                <div class="nav-sub-item">
+                    <a href="game_love.html">Лучшие</a>
+                    <a href="game_car.html">Гонки</a>
+                    <a href="game_stars.html">Космос</a>
+                    <a href="game_csgo.html">Стрелялки</a>
+                    <a href="game_sky.html">Летаки</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="contact.html">
+                    <i class="nav-icon fa fa-envelope"></i>
+                    Контакты
+                </a>
+            </div>
+            <div class="nav-item">
+                <a id="closeMenu" href="#">
+                    <i class="nav-icon fa fa-times"></i>
+                    Close
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="perspective_container"><!--the "moving to the left" content box-->
+        <div class="wrapper"><!-- wrapper needed for scroll -->
+         	<div class="header-clear"><i class="fa fa-times"></i></div>
+            <div class="slider-container full-bottom">
+                 <div class="decoration"></div>
+                  <h1 align="center"> Добро пожаловать на наш сайт!</h1>
+                   <div class="decoration"></div>
+                    
+                          
+                    <div>
+       <div class="slider-container full-bottom">
+    <div class="homepage-slider" data-snap-ignore="true">                
+        <div>            
+
+                        <div class="overlay"></div>
+                        <div class="homepage-slider-caption">
+                            <h3>Фильмы</h3>
+                            <p>Культовые фильмы всех времен!</p>
+                        </div>
+                        <img src="images/pictures/3ww.jpg" class="responsive-image" alt="img">
+                    </div>
+                    <div>
+                        <div class="overlay"></div>
+                        <div class="homepage-slider-caption">
+                            <h3>Музыка Радио</h3>
+                            <p>Слушай радио и будь счастлив!</p>
+                        </div>
+                        <img src="images/pictures/5ww.jpg" class="responsive-image" alt="img">
+                    </div>
+
+                    <div>
+                        <div class="overlay"></div>
+                        <div class="homepage-slider-caption">
+                            <h3>Игры</h3>
+                            <p>Играй и веселись вместе с нами!</p>
+                        </div>
+                        <img src="images/pictures/77ww.jpg" class="responsive-image" alt="img">
+                    </div>
+                     <div>
+
+                        <div class="overlay"></div>
+                        <div class="homepage-slider-caption">
+                            <h3>Новости</h3>
+                            <p>Самые свежие новости!</p>
+                        </div>
+                        <img src="images/pictures/3ww.jpg" class="responsive-image" alt="img">
+                    </div>
+                    <div>
+                    <div>
+                        <div class="overlay"></div>
+                        <div class="homepage-slider-caption">
+                            <h3>Органайзер</h3>
+                            <p>Расписывай свой день у нас!</p>
+                        </div>
+                        <img src="images/pictures/78ww.jpg" class="responsive-image" alt="img">
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+            	<div class="page-heading container" <br>
+                    
+ <div class="decoration"></div> 
+
+    </div>    
+    <div class="pinrest">
+    <!-- weather widget start --><div id="m-booked-weather-bl250-86462"> <div class="booked-wzs-250-175 weather-customize" style="background-color:#137AE9;width:430px;" id="width3"> <div class="booked-wzs-250-175_in"> <div class="booked-wzs-250-175-data"> <div class="booked-wzs-250-175-left-img wrz-06"> </div> <div class="booked-wzs-250-175-right"> <div class="booked-wzs-day-deck"> <div class="booked-wzs-day-val"> <div class="booked-wzs-day-number"><span class="plus">+</span>33</div> <div class="booked-wzs-day-dergee"> <div class="booked-wzs-day-dergee-val">&deg;</div> <div class="booked-wzs-day-dergee-name">C</div> </div> </div> <div class="booked-wzs-day"> <div class="booked-wzs-day-d">H: <span class="plus">+</span>34&deg;</div> <div class="booked-wzs-day-n">L: <span class="plus">+</span>20&deg;</div> </div> </div> <div class="booked-wzs-250-175-info"> <div class="booked-wzs-250-175-city">Бишкек </div> <div class="booked-wzs-250-175-date">Четверг, 12 Август</div> <div class="booked-wzs-left"> <span class="booked-wzs-bottom-l">Прогноз на неделю</span> </div> </div> </div> </div> <table cellpadding="0" cellspacing="0" class="booked-wzs-table-250"> <tr> <td>Пт</td> <td>Сб</td> <td>Вс</td> <td>Пн</td> <td>Вт</td> <td>Ср</td> </tr> <tr> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>29&deg;</td> <td class="week-day-val"><span class="plus">+</span>26&deg;</td> <td class="week-day-val"><span class="plus">+</span>23&deg;</td> <td class="week-day-val"><span class="plus">+</span>27&deg;</td> <td class="week-day-val"><span class="plus">+</span>32&deg;</td> <td class="week-day-val"><span class="plus">+</span>34&deg;</td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>17&deg;</td> <td class="week-day-val"><span class="plus">+</span>15&deg;</td> <td class="week-day-val"><span class="plus">+</span>14&deg;</td> <td class="week-day-val"><span class="plus">+</span>12&deg;</td> <td class="week-day-val"><span class="plus">+</span>15&deg;</td> <td class="week-day-val"><span class="plus">+</span>18&deg;</td> </tr> </table> </a> </div> </div> </div><script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-275.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_86462(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-weather-bl250-86462'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=10287;type=3;scode=124;ltid=3539;domid=589;anc_id=83424;countday=undefined;cmetric=1;wlangID=20;color=137AE9;wwidth=430;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=86462';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end --></div>
+                <div class="decoration"></div>        
+            </div>
+            <div class="content-strip">
+                <h4>Популярные Фильмы</h4>
+                <p>Всеми нами любимые фильмы! Приятного просмотра!</p>
+                <i class="fa fa-picture-o"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/3ww.jpg" alt="img">
+            </div>
+            <div class="content">
+            	
+                <div class="container no-bottom">
+                    <div class="one-half-responsive">
+                        <p class="thumb-left no-bottom">
+                            
+                        </p>
+                        <div class="thumb-clear"></div>
+                    </div>
+                </div>
+			</div>
+            <div class="content">
+                <div class="decoration"></div>
+                <div class="container">
+                    <a href="#" class="next-staff"></a>
+                    <a href="#" class="prev-staff"></a>
+                    <div class="staff-slider">
+                        <div>
+                            <div class="staff-item">
+                                <img class="pretty" src="https://original-films.com/uploads/kinocomplete/images/3b04a64229cb5e28b57625d584c06959.jpg" alt="img">
+                                <h4>Гарри Поттер</h4>
+                             
+                                <strong> фэнтези, приключения, семейный, драма</strong>
+                                
+                                   <a href="harrypotter.html" class="button button-orange center-button">Смотреть</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                               <img class="pretty" src="https://mobimg.b-cdn.net/pic/v2/gallery/111x185/aktery-dzhoker_joker-kino-muzhchiny-35200.jpg" alt="img">
+                                  <h4>Джокер</h4>
+                              
+                                <strong>триллер, драма, криминал</strong>
+                               
+                                  <a href="#" class="button button-green center-button">Смотреть</a>
+                               
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                 <img class="pretty" src="https://www.film.ru/sites/default/files/images/avengers-endgame-official-poster.jpg" alt="img">
+                                   <h4>Мстители</h4> 
+                               <strong>фантастика, боевик, фэнтези, приключения </strong>
+                                 
+                                <a href="#" class="button button-blue center-button">Смотреть</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="pretty" class="staff-item">
+                                <img src="images/pictures/4s.jpg" alt="img">
+                                <h4>Mike Grape</h4>
+                                <em>Web Designer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-dark center-button">Read More</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img class="pretty" src="images/pictures/5s.jpg" alt="img">
+                                <h4>Victor Leaf</h4>
+                                <em>Front End Developer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-orange center-button">Facebook</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img class="pretty" src="images/pictures/6s.jpg" alt="img">
+                                <h4>Snow White</h4>
+                                <em>Business Manager</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-yellow center-button">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="decoration"></div>
+            </div>
+            <div class="content-strip">
+                <h4>Популярные песни</h4>
+                <p>Слушай и скачивай хиты у нас!</p>
+                <i class="fa fa-star-o"></i>
+                <div class="overlay"></div>
+                <img src="https://eksmo.ru/upload/iblock/968/720_min.jpg" alt="img">
+            </div>         
+            <div class="content">
+                <div class="decoration"></div>
+                <div class="container">
+                    <a href="#" class="next-staff"></a>
+                    <a href="#" class="prev-staff"></a>
+                    <div class="staff-slider">
+                        <div>
+                            <div class="staff-item">
+                                <img src="https://eksmo.ru/upload/iblock/968/720_min.jpg" alt="img">
+                                <h4>Билли Айлиш</h4>
+                             <em> Более 100 песен</em>
+                                <strong>Поп,<br> электопоп,<br> инди-поп</strong></em>
+                                
+                                   <a href="#" class="button button-orange center-button">Слушать</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="https://images11.esquire.ru/upload/custom/1b7/1b7e96c7b56e01a663bcdcb059fc55ac.jpg" alt="img">
+                                <h4>Лана Дель Рей</h4>
+                               <em>Более 100 песен </em>
+                                <strong>Инди-поп, барокко-поп,<br> 
+                                трип-хоп, дрим-поп,<br> инди-рок</strong>
+                               
+                                  <a href="#" class="button button-green center-button">Слушать</a>
+                               
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLZyeBMO6cmMkBLfHIvIFZa0NjwGuhClk_WA&usqp=CAU=" alt="img">
+                                   <h4>Бруно Марс</h4>
+                                   <em>Более 100 песен </em>
+                               <strong>Поп, хип-хоп,<br> соул, рок-музыка, фанк,<br> регги, диско, трэп </strong>
+                                 
+                                <a href="#" class="button button-blue center-button">Слушать</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/4s.jpg" alt="img">
+                                <h4>Mike Grape</h4>
+                                <em>Web Designer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-dark center-button">Read More</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/5s.jpg" alt="img">
+                                <h4>Victor Leaf</h4>
+                                <em>Front End Developer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-orange center-button">Facebook</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/6s.jpg" alt="img">
+                                <h4>Snow White</h4>
+                                <em>Business Manager</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-yellow center-button">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="decoration"></div>
+            </div>
+            <div class="content-strip">
+                <h4>все самое лучшее в радио</h4>
+                <p>Слушай радио!</p>
+                <i class="fa fa-star-o"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/5ww.jpg" alt="img">
+            </div>
+            <div class="content">
+                <div class="decoration"></div>
+                <div class="container">
+                    <a href="#" class="next-staff"></a>
+                    <a href="#" class="prev-staff"></a>
+                    <div class="staff-slider">
+                        <div>
+                            <div class="staff-item">
+                                   <img class="adapt images" src="images/gallery/evro.jpg" alt="img" width="460" >
+                                 <h4>Европа плюс </h4>
+                             
+                                
+                                   <a href="#" class="button button-orange center-button">Слушать</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                 <img class="adapt images" src="https://radiopotok.ru/f/station/512/78.png" alt="img" width="460">
+                                 <h4> Авто радио</h4>
+                               
+                               
+                                  <a href="#" class="button button-green center-button">Слушать</a>
+                               
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                  <img class="adapt images" src="https://radiopotok.mobi/f/station/512/83.png" alt="img" width="460" >
+                                 <h4>Дорожное радио</h4>
+                                   <em>Более 100 песен </em>
+                               <strong>Поп, хип-хоп,<br> соул, рок-музыка, фанк,<br> регги, диско, трэп </strong>
+                                 
+                                <a href="#" class="button button-blue center-button">Слушать</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/4s.jpg" alt="img">
+                                <h4>Mike Grape</h4>
+                                <em>Web Designer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-dark center-button">Read More</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/5s.jpg" alt="img">
+                                <h4>Victor Leaf</h4>
+                                <em>Front End Developer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-orange center-button">Facebook</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/6s.jpg" alt="img">
+                                <h4>Snow White</h4>
+                                <em>Business Manager</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-yellow center-button">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="decoration"></div>
+            </div>
+            
+
+            <div class="content-strip">
+                <h4>Популярные Игры</h4>
+                <p>Скорее скачивай и играй!</p>
+                <i class="fa fa-cogs"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/77ww.jpg" alt="img">
+            </div>
+             <div class="content">
+                <div class="decoration"></div>
+                <div class="container">
+                    <a href="#" class="next-staff"></a>
+                    <a href="#" class="prev-staff"></a>
+                    <div class="staff-slider">
+                        <div>
+                            <div class="staff-item">
+                                   <img class="adapt images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfVb-58Pd8b79RA1zBs4LPAe7-FgQkfpNiXg&usqp=CAU width="460" >
+                                 <h4>Pubg </h4>
+                             
+                                
+                                   <a href="#" class="button button-orange center-button">Играть</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                 <img class="adapt images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaxbEM5wE5O22gQN4p2sJC7lIkfC7cbDhBFw&usqp=CAU" alt="img" width="460">
+                                 <h4> World of tanks</h4>
+                               
+                               
+                                  <a href="#" class="button button-green center-button">Играть</a>
+                               
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                  <img class="adapt images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMY-pB33I2nApAyMsphtYpvDUL6ALUwi9Xww&usqp=CAU" alt="img" width="460" >
+                                 <h4>Free fire</h4>
+                                  
+                                 
+                                <a href="#" class="button button-blue center-button">Играть</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/4s.jpg" alt="img">
+                                <h4>Mike Grape</h4>
+                                <em>Web Designer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-dark center-button">Read More</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/5s.jpg" alt="img">
+                                <h4>Victor Leaf</h4>
+                                <em>Front End Developer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-orange center-button">Facebook</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/6s.jpg" alt="img">
+                                <h4>Snow White</h4>
+                                <em>Business Manager</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-yellow center-button">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+               
+            <div class="content-strip">
+                <h4>Самые свежие новости!</h4>
+                <p>Будь всегда в курсе дел!</p>
+                <i class="fa fa-star-o"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/77ww.jpg" alt="img">
+            </div>         
+            <div class="content">
+                <div class="decoration"></div>
+                <div class="container">
+                    <a href="#" class="next-staff"></a>
+                    <a href="#" class="prev-staff"></a>
+                    <div class="staff-slider">
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/1s.jpg" alt="img">
+                                <h4>John Doe</h4>
+                                <em>Web Designer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-red center-button">Call</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/2s.jpg" alt="img">
+                                <h4>Jane Hidden</h4>
+                                <em>Front End Developer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-green center-button">Text</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/3s.jpg" alt="img">
+                                <h4>Johanna Pear</h4>
+                                <em>Business Manager</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-blue center-button">Mail</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/4s.jpg" alt="img">
+                                <h4>Mike Grape</h4>
+                                <em>Web Designer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-dark center-button">Read More</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/5s.jpg" alt="img">
+                                <h4>Victor Leaf</h4>
+                                <em>Front End Developer</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-orange center-button">Facebook</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="staff-item">
+                                <img src="images/pictures/6s.jpg" alt="img">
+                                <h4>Snow White</h4>
+                                <em>Business Manager</em>
+                                <strong>We love quotes, and sometimes it's annoying to see tons of them that you need to scroll to!</strong>
+                                <a href="#" class="button button-yellow center-button">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="decoration"></div>
+            </div>
+            <div class="content-strip">
+                <h4>Будь с нами!</h4>
+                <p>Cкачай наше предложение для ANDROID и будь с нами всегда и везде! "для ios скоро все сделаем"</p>
+                
+                <i class="fa fa-star-o"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/7w.jpg" alt="img">
+            </div>
+            
+            <div class="content">
+                <div class="decoration"></div>
+                    <div class="container">
+                        <div class="one-half-responsive">
+                            <img src="images/mobile.png" alt="img" class="responsive-image">
+                        </div>
+                        <div class="one-half-responsive last-column">
+                            <h3 class="center-if-mobile">Awesome project title</h3>
+                            <em class="center-if-mobile small-text">Awesome project subtitle</em>
+                            <p class="center-if-mobile no-bottom">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in quam mauris. 
+                                Nam condimentum convallis lectus, ac tempus massa eleifend sit amet. Ut nec orci 
+                                ut urna mollis elementum a et diam. Donec varius orci a convallis convallis. 
+                            </p>
+                        </div>
+                    </div>
+                <div class="decoration"></div>
+            </div>
+            
+            <div class="content-strip">
+            	<h4>Рекомендации</h4>
+                <p>Этот мини блок откроет вам наши мини секреты :) </p>
+                <i class="fa fa-user"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/78ww.jpg" alt="img">
+            </div>
+            
+            <div class="content">
+            	<div class="decoration"></div>
+                
+                <div class="quote-slider full-bottom">
+                	<div>
+                    	<h4>
+							Great all around product, with some of the best documentation I have ever seen. Really thorough and easy to follow! 
+                            Also the support responsiveness is really fantastic. Extremely happy with everything. Thanks again!
+                        </h4>
+                        <a href="#">ChrisPizzoDesign - ThemeForest</a>
+                    </div>
+                    <div>
+                    	<h4>
+							Exceptional theme. Completely customisable and the best customer service I've ever had from a theme/plugin. Not only are 
+                            they fast but they are polite and don't make you feel like a doofus even when you are probably being one.                        
+                        </h4>
+                        <a href="#">larzick27 - ThemeForest</a>
+                    </div>
+                    <div>
+                    	<h4>
+							One of the best themes I've used so far and it is very well documented, coded and very clean. Got it intergrated with 
+                            wordpress in less than an hour! But this is an amazing template built with a load of features!
+                        </h4>
+                        <a href="#">ramseycosay18 - ThemeForest</a>
+                    </div>
+                </div>
+                
+                <div class="decoration"></div>            
+            </div>
+            
+            
+            <div class="content-strip">
+                <h4>Органайзер</h4>
+                <p>нужные инстурменты!</p>
+                <i class="fa fa-picture-o"></i>
+                <div class="overlay"></div>
+                <img src="images/pictures/78ww.jpg" alt="img">
+            </div>
+            
+            <div class="content">
+                <div class="decoration"></div>
+                <div class="container">
+                    <p class="no-bottom">
+                        A touch image gallery is here to complete the template, 
+                        you can add titles, and text, or simply leave the thumbnails 
+                        there with no text around them! Nothing complicated, 
+                        just a copy paste!
+                    </p>
+                </div>         
+    
+                <ul class="gallery">
+                    <li>
+                        <a class="swipebox" href="images/pictures/1.jpg" title="An image caption!">
+                        <img src="images/pictures/1s.jpg" alt="img" />
+                        <br>
+                        Grass near the ocean
+                        </a>
+                    </li>
+                    <li>
+                        <a class="swipebox" href="images/pictures/2.jpg" title="It can change!">
+                        <img src="images/pictures/2s.jpg" alt="img" />
+                        <br>
+                        Pine forest near sea
+                        </a>
+                    </li>
+                    <li>
+                        <a class="swipebox" href="images/pictures/3.jpg" title="To be whatever you want!">
+                        <img src="images/pictures/3s.jpg" alt="img" />
+                        <br>
+                        Sunset in the big city
+                        </a>
+                    </li>
+                    <li>
+                        <a class="swipebox" href="images/pictures/4.jpg" title="It's connected to the href!">
+                        <img src="images/pictures/4s.jpg" alt="img" />
+                        <br>
+                        Mountains near sea
+                        </a>
+                    </li>
+                    <li>
+                        <a class="swipebox" href="images/pictures/5.jpg" title="Easy to change and edit!">
+                        <img src="images/pictures/5s.jpg" alt="img" />
+                        <br>
+                        Wind in a grain field
+                        </a>
+                    </li>
+                    <li>
+                        <a class="swipebox" href="images/pictures/6.jpg" title="What an awesome gallery!">
+                        <img src="images/pictures/6s.jpg" alt="img" />
+                        <br>
+                        House in a grain field
+                        </a>
+                    </li>
+                </ul>  
+                <img src="images/pictures/4s.jpg" class="responsive-image">
+                        </div>
+                        <div class="portfolio-two-text">
+                            <h3 class="title">Portfolio Item</h3>
+                            <em class="subtitle">Portfolio items placed on multiple columns.</em>
+                            <p class="half-bottom">
+                                Lorem ipsum dolor sit amet, consecte tur est adipiscing elit. Lacus 
+                                sollid um facilisis eleme quis, vulputat nec. 
+                            </p>              
+                            <div class="portfolio-two-links">
+                                <a href="#"><i class="fa fa-arrow-right"></i> Visit Project</a>
+                            </div> 
+                        </div>       
+                    </div>        
+                </div> 
+                <div class="decoration"></div>        
+            </div>
+            <div class="footer-section">
+                <p class="footer-text">
+                    Copyright 2021.<br>
+                    All rights reserved.
+                </p>
+                <div class="footer-icons">
+                    <a href="#" class="footer-facebook-icon"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="footer-google-icon"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="footer-twitter-icon"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="footer-up-icon"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        
+        </div><!-- wrapper -->
+    </div><!-- /perspective container -->
+</div><!-- /perspective -->
+
+</div>
+
+<script type="text/javascript" src="scripts/menu.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,352 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Glovebox</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="copyright" content="">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-09-30T18:33:13+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-glovebox">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#faq" title="FAQ">FAQ</a></li>
+			<li><a href="#page_structure" title="Page Structure">Page Structure</a></li>
+			<li><a href="#navigation" title="Navigation">Navigation</a></li>
+			<li><a href="#homepage_slider" title="Homepage Slider">Homepage Slider</a></li>
+			<li><a href="#left_right_columns" title="Left Right Columns">Left Right Columns</a></li>
+			<li><a href="#content_strips" title="Content Strips">Content Strips</a></li>
+			<li><a href="#is_this_all" title="Is this all?">Is this all?</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright  2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Glovebox</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	
+	
+	%%AUTHOR%%
+	
+	
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="faq">
+	<div class="page-header"><h3>FAQ</h3><hr class="notop"></div>
+<p>
+	<strong>How to instal the template?</strong></p>
+<p>
+	To install the template, copy and paste the items in the pack, to your server on your desired location.</p>
+<p>
+	<strong>How do I change the contact form information?</strong></p>
+<p>
+	Open the PHP file in the pack, and replace the email address with yours. The PHP folder can be found only in the purchased version.</p>
+</section>
+<section id="page_structure">
+	<div class="page-header"><h3>Page Structure</h3><hr class="notop"></div>
+<p>
+	Attention! The page structure must be followed perfectyl for the item to work like it should! As the page runs REAL CSS3 transformations the code is a little more complex. We will explain it for everyone!</p>
+<p>
+	&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;all-elements&quot;&gt;
+    &lt;div id=&quot;perspective&quot; class=&quot;perspective effect-airbnb&quot;&gt;&lt;!--this houses the entire page, and creates the effect--&gt;
+        &lt;div class=&quot;header&quot;&gt;
+            &lt;a href=&quot;#&quot; id=&quot;showMenu&quot;&gt;&lt;i class=&quot;fa fa-navicon&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;a href=&quot;#&quot; id=&quot;pageLogo&quot;&gt;&lt;img src=&quot;images/logo.png&quot; alt=&quot;img&quot;&gt;&lt;/a&gt;
+            &lt;a href=&quot;#&quot; id=&quot;openMail&quot;&gt;&lt;i class=&quot;fa fa-envelope-o&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;     
+        &lt;div class=&quot;outer-nav&quot;&gt;
+            &lt;div class=&quot;inner-nav&quot;&gt;
+                &lt;!-- NAVIGATION EXPLAIND IN NEXT CHAPTER --&gt; 
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;perspective_container&quot;&gt;&lt;!--the &quot;moving to the left&quot; content box--&gt;
+            &lt;div class=&quot;wrapper&quot;&gt;&lt;!-- wrapper needed for scroll --&gt;
+                &lt;div class=&quot;header-clear&quot;&gt;&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                &lt;div class=&quot;content&quot;&gt;
+                    &lt;div class=&quot;container&quot;&gt;
+                        Start Here!
+                    &lt;/div&gt;
+                    &lt;div class=&quot;decoration&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;&lt;!-- content--&gt;
+            &lt;/div&gt;&lt;!-- wrapper --&gt;
+        &lt;/div&gt;&lt;!-- /perspective container --&gt;
+    &lt;/div&gt;&lt;!-- /perspective --&gt;
+&lt;/div&gt;&lt;!-- /all elements wrapper --&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	Line 1, the all-elements class, is create to ensure the page doesn&#39;t scroll left or right, this makes it overflow hidden so that all elements stay within the exact device screen widht</p>
+<p>
+	Line 2 the perspective wrapper, is created to house the two elements inside that will have animations. the effect class will be added and removed by JS when the nav is tapped.</p>
+<p>
+	Line 3 to 7 is the header. To change the page logo width, open style.css and locate pageLogo img and change the width value there.</p>
+<p>
+	Lin 8 to 12 will house the navigation. The outer nav is added to set top and left distance, and the inner nav is added to make the navigation list scrollable.</p>
+<p>
+	Line 13 is the box that actually moves to the left when you tap the menu. This will house all our content</p>
+<p>
+	Line 14 is the wrapper. Because line 13 is a fixed box, line 14 will create the scrolling proerty. Why is this needed? Because if line 13 would not be fixed, when the box would open, it would not be 80% in height, but the true hight of the element, so only a small gap would apear at the top, but the bottom would be scrollable.</p>
+<p>
+	Line 15 is the header clear class. The header is a fixed class, and it needs a spacing below it to clear.</p>
+<p>
+	Line 16 is the page content, this will house ALL the features in the template, added in contianers or responsive columns depending on what you need. This is the place where everything gets added in!</p>
+<p>
+	Lines 21 to 25 close all divs.</p>
+<p>
+	This is the most simple structure posible to make the item work flawlessly, altough many classes, the performance is greatly enhanced. We&#39;ve included a starter-page for you go start directly if this is too much of a headache!</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="navigation">
+	<div class="page-header"><h3>Navigation</h3><hr class="notop"></div>
+<p>
+	In the previous chapter, in the page structure, in line 10, you can add the follwing classes to create menus</p>
+<p>
+	&nbsp;</p>
+<h4 id="navigation_simple_menu_no_dropdown_">Simple Menu ( no dropdown )</h4>
+<p>
+	This creates a simple navigation item. You can replace the i class with icons from Font Awesome http://fortawesome.github.io/Font-Awesome/icons/ and replace link and text with your needs.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;nav-item&quot;&gt;
+&nbsp;&nbsp;&nbsp; &lt;a href=&quot;index.html&quot; class=&quot;active-item&quot;&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;i class=&quot;nav-icon fa fa-home&quot;&gt;&lt;/i&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home
+&nbsp;&nbsp;&nbsp; &lt;/a&gt;
+&lt;/div&gt;
+</pre>
+<h4 id="navigation_dropdown_menu_innactive_dropdown_">Dropdown Menu ( innactive dropdown )</h4>
+<p>
+	The dropdown menu is basically a simple menu, with another div in it that houses the submenu. The icon can be replaced like the main menu.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;nav-item&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;deploy-nav-sub-item&quot;&gt;
+        &lt;i class=&quot;nav-icon fa fa-cog&quot;&gt;&lt;/i&gt;
+        Features
+    &lt;/a&gt;
+    &lt;div class=&quot;nav-sub-item&quot;&gt;
+        &lt;a href=&quot;features-type.html&quot;&gt;Type&lt;/a&gt;
+        &lt;a href=&quot;features-jquery.html&quot;&gt;jQuery&lt;/a&gt;
+        &lt;a href=&quot;features-others.html&quot;&gt;Others&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+<h4 id="navigation_dropdown_menu_nbsp_active_dropdown_">Dropdown Menu&nbsp; ( active dropdown )</h4>
+<p>
+	The difference between an active menu and an inactive menu is that the active one has the class active-item added to the main anchor, and the class nav-sub-active added to the submenu div. To make a submenu item active, add the class active-item to any anchor from the submenu item.</p>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;nav-item&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;deploy-nav-sub-item active-item&quot;&gt;
+        &lt;i class=&quot;nav-icon fa fa-cog&quot;&gt;&lt;/i&gt;
+        Features
+    &lt;/a&gt;
+    &lt;div class=&quot;nav-sub-item nav-sub-active&quot;&gt;
+        &lt;a class=&quot;active-item&quot; href=&quot;features-type.html&quot;&gt;Type&lt;/a&gt;
+        &lt;a href=&quot;features-jquery.html&quot;&gt;jQuery&lt;/a&gt;
+        &lt;a href=&quot;features-others.html&quot;&gt;Others&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<br>
+	&nbsp;</p>
+</section>
+<section id="homepage_slider">
+	<div class="page-header"><h3>Homepage Slider</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;slider-container full-bottom&quot;&gt;
+    &lt;div class=&quot;homepage-slider&quot; data-snap-ignore=&quot;true&quot;&gt;                
+        &lt;div&gt;
+            &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;homepage-slider-caption&quot;&gt;
+                &lt;h3&gt;Swipe me!&lt;/h3&gt;
+                &lt;p&gt;Hope you enjoy our latest item!&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;img src=&quot;images/pictures/3ww.jpg&quot; class=&quot;responsive-image&quot; alt=&quot;img&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>
+	The code above is the homepage slider. To create another slider, duplicate the div from line 3.</p>
+<p>
+	Line 4 is the overlay, the black background that allows the text to be more visibile</p>
+<p>
+	Line 4 is the homepage slider caption housing box.<br>
+	Line 5 is the homepage slider title</p>
+<p>
+	Line 6 is the homepage slider text</p>
+<p>
+	Line 7 closes the caption</p>
+<p>
+	Line 8 is the image for the image slider.&nbsp; We recommend using 16:9 format images.</p>
+</section>
+<section id="left_right_columns">
+	<div class="page-header"><h3>Left Right Columns</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+&lt;div class=&quot;one-half-responsive&quot;&gt;
+    &lt;p class=&quot;thumb-left no-bottom&quot;&gt;
+        &lt;img src=&quot;images/pictures/1s.jpg&quot; alt=&quot;img&quot;&gt;
+        &lt;strong&gt;Responsive Template&lt;/strong&gt;
+        &lt;em&gt;&lt;br&gt;Lorem Ipsum is simply dummy text of the printing and types. &lt;/em&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;thumb-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;decoration hide-if-responsive&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;one-half-responsive last-column&quot;&gt;        
+    &lt;p class=&quot;thumb-right no-bottom&quot;&gt;
+        &lt;img src=&quot;images/pictures/2s.jpg&quot; alt=&quot;img&quot;&gt;
+        &lt;strong&gt;CSS3 Designed&lt;/strong&gt;
+        &lt;em&gt;&lt;br&gt;Lorem Ipsum is simply dummy text of the printing and types. &lt;/em&gt;
+    &lt;/p&gt;
+    &lt;div class=&quot;thumb-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	Left right columns are colums that have one element to the left and one element to the right.</p>
+<p>
+	Line 1 creates the one-half-responsive class. This means the section will show 1 column on mobiles, and 2 on tablets.</p>
+<p>
+	Line 2 is the column itself. This is set to show to the left side of the screen.</p>
+<p>
+	Line 3 is the icon</p>
+<p>
+	Line 4 is the title</p>
+<p>
+	Line 5 is the text</p>
+<p>
+	Line 7 clears the floatation</p>
+<p>
+	Line 8 closes the lloating div.</p>
+<p>
+	Line 9 creates a decoration that hides itself on tablets.</p>
+<p>
+	Line 10 creates another one half responsive class</p>
+<p>
+	Line 11 creates a right column, the same princiles apply as the above.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<br>
+	&nbsp;</p>
+</section>
+<section id="content_strips">
+	<div class="page-header"><h3>Content Strips</h3><hr class="notop"></div>
+<pre class="prettyprint lang-html linenums">
+            &lt;div class=&quot;content-strip&quot;&gt;
+                &lt;h4&gt;The Staff&lt;/h4&gt;
+                &lt;p&gt;Meet our awesome staff!&lt;/p&gt;
+                &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
+                &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
+                &lt;img src=&quot;images/pictures/6w.jpg&quot; alt=&quot;img&quot;&gt;
+            &lt;/div&gt;   </pre>
+<p>
+	Content strips are added outside the content class to make them expand the full width of the screen.</p>
+<p>
+	These house a title, a small title, an icon and an image. Replace as needed.</p>
+</section>
+<section id="is_this_all">
+	<div class="page-header"><h3>Is this all?</h3><hr class="notop"></div>
+<p>
+	No! please check the second docuemntation for the features of the page and if there is anything at all you don&#39;t understand please don&#39;t hesitate to ask on our item or send us a message through our support form http://enableds.com/html-support/ here!</p>
+<p>
+	We offer top notch support for all our customers all the time, so please don&#39;t forget to rate 5 stars! It helps us more than you can imagine!</p>
+</section>
+
+	</div>
+</body>
+</html>
